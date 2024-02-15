@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* The image used */
+  background-image: url("main-bg.png");
+  height: 100vh;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+nav ul li .nav-link {
+  font-size: 23px;
+  color: #fff;
+  margin-right: 3rem;
+}
+
+nav button {
+  padding: 5px 11px 5px 69px;
+  border-radius: 2rem;
+}
+
+
+/* HOME SECTION */
+.logo-section {
+  padding: 5rem 2rem;
+  color: #fff;
+  gap: 3rem;
+}
+
+.logo-section h1 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 69px;
+  font-weight: 500;
+  margin: 33px 0;
+}
+
+.logo-section h6 {
+  font-size: 33px;
+  text-transform: uppercase;
+  margin: 22px 0;
+}
+
+.logo-section p {
+  font-size: 23px;
+}
+
+.home-img-section .home-noodels img {
+  position: relative;
+  z-index: 3;
+  top: 37px;
+  left: 77px;
+  width: 500px;
+}
+
+.home-img-section .home-chicken img {
+  position: relative;
+  z-index: 4;
+  bottom: 121px;
+  right: 101px;
+  width: 280px;
+}
+
+.home-img-section .home-leaf img {
+  position: relative;
+  z-index: 5;
+  bottom: 383px;
+  left: 89px;
+}
+
+/* MENU SECTION */
+#menu .heading h2 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 55px;
+}
+
+#menu .heading p {
+  font-size: 23px;
+  text-align: center;
+  padding: 9px 232px;
+}
+
+#menu .menu-card {
+  text-align: center;
+}
+
+#menu .menu-card .menu-img img {
+  display: block;
+  margin: 3rem auto;
+  width: 69%;
+}
+
+#menu .menu-card .menu-text p {
+  font-size: 19px;
+}
+
+#menu button {
+  width: fit-content;
+  display: block;
+  margin: 3rem auto;
+  padding: 7px 12px;
+  border-radius: 3rem;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+
+/* MORE INFO SECTION */
+#more-info {
+  background-color: #1f2226;
+  color: #fff;
+}
+
+#more-info .heading h2 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 55px;
+}
+
+#more-info .more-info-text {
+  font-size: 17px;
+  padding: 2rem 5rem;
+}
+
+#more-info button {
+  background-color: #fff;
+  color: #000;
+  width: fit-content;
+  display: block;
+  margin: 3rem auto;
+  padding: 7px 12px;
+  border-radius: 3rem;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+
+/* DISCOUNT SECTION */
+#discount .discount-text {
+  padding: 1rem;
+}
+
+#discount .discount-text h1 {
+  font-size: 73px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+#discount .discount-text p {
+  font-size: 31px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+#discount button {
+  background-color: #000;
+  width: fit-content;
+  display: block;
+  padding: 11px 31px;
+  border-radius: 3rem;
+  font-size: 33px;
+  font-weight: 600;
+}
+
+
+/* PIZZA SECTION */
+#pizza {
+  background-image: url(main-bg.png);
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#pizza .heading h2 {
+  font-family: "Protest Riot", sans-serif;
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 55px;
+}
+
+#pizza .heading p {
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
+  padding: 9px 232px;
+}
+
+#pizza .heading span {
+  background-color: #fff;
+  padding: 3px 7rem;
+  display: block;
+  margin: 0 auto;
+  width: 7%;
+}
+
+#pizza .left-leaf img {
+  width: 60%;
+  position: relative;
+  z-index: 6;
+  top: 0;
+  left: 0;
+}
+
+#pizza .pizza-img img {
+  width: 750px;
+  position: relative;
+  z-index: 7;
+  top: 37px;
+  right: 91px;
+
+}
+
+#pizza .right-leaf img {
+  width: 100%;
+  position: relative;
+  z-index: 8;
+  bottom: 232px;
+  left: 33px;
+}
+
+#pizza .pizza-card {
+  padding: 2rem 3rem;
+}
+
+
+#pizza .pizza-card .pizza-text h3 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 44px;
+}
+
+#pizza .pizza-card .pizza-text p {
+  font-size: 21px;
+}
+
+#pizza .inner-text p {
+  margin: 5rem 2rem 2rem 2rem;
+  font-size: 23px;
+  text-align: center;
+  padding: 0 5rem;
+}
+
+#pizza .inner-text button {
+  border-radius: 3rem;
+  display: block;
+  margin: 0 auto;
+}
+
+/* FOOTER SECTION */
+#footer {
+  background-color: #1f2226;
+  color: #fff;
+  height: 60vh;
+  position: relative;
+  padding: 2rem 2rem;
+  margin: 3rem auto;
+}
+
+#footer .footer-title-sec {
+  margin: 3rem auto;
+}
+
+#footer .footer-title-sec p {
+  font-size: 19px;
+  margin: 3rem 0;
+}
+
+#footer .footer-title-sec .footer-icon a {
+  color: #fff;
+  font-size: 27px;
+  background: #000;
+  border-radius: 50%;
+  padding: 11px;
+  margin-right: 1rem;
+}
+
+#footer .footer-about ul li h5,
+#footer .footer-services ul li h5,
+#footer .footer-other ul li h5 {
+  font-size: 37px;
+}
+
+#footer .footer-about ul,
+#footer .footer-services ul,
+#footer .footer-other ul {
+  list-style: none;
+}
+
+#footer .footer-about ul li,
+#footer .footer-services ul li,
+#footer .footer-other ul li {
+  margin: 1rem 0;
+}
+
+#footer .footer-about ul li a,
+#footer .footer-services ul li a,
+#footer .footer-other ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  margin: 1rem auto;
+}
+
+
+/* RESEPONSIVE CSS */
+@media only screen and (max-width: 1400px) {
+
+  /* HOME SECTION */
+  .logo-section {
+    padding: 5rem 2rem;
+    color: #fff;
+    gap: 3rem;
+  }
+
+  .logo-section h1 {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    margin: 33px 0;
+  }
+
+  .logo-section h6 {
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 22px 0;
+  }
+
+  .logo-section p {
+    font-size: 19px;
+    margin-top: 17px;
+  }
+
+  .home-img-section .home-noodels img {
+    position: relative;
+    z-index: 3;
+    top: 37px;
+    left: 77px;
+    width: 500px;
+  }
+
+  .home-img-section .home-chicken img {
+    display: none;
+  }
+
+  .home-img-section .home-leaf img {
+    display: none;
+  }
+
+  #footer .footer-about ul li a,
+  #footer .footer-services ul li a,
+  #footer .footer-other ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin: 1rem auto;
+  }
+
+}
+
+@media only screen and (max-width: 1200px){
+  .home-img-section .home-noodels img{
+    position: relative;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 400px;
+  }
+
+  
+}
